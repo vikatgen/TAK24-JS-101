@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>DOM API</title>
 </head>
 <body>
@@ -12,6 +13,16 @@
 
     <div class="fruit-list">
     </div>
+
+    <form id="add-new-fruit-form">
+        <h3>Lisa uus puuvili</h3>
+        <fieldset>
+            <label for="fruit">Puuvilja nimetus</label>
+            <input type="text" id="fruit" name="fruit">
+            <span id="error-message"></span>
+        </fieldset>
+        <button type="submit">Salvesta</button>
+    </form>
 
     <script src="./script.js"></script>
 </body>
