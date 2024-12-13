@@ -6,3 +6,8 @@
     color: red;
     font-size: .7rem;
 }
+
+.list-element {
+    display: flex;
+    gap: .5rem;
+}
